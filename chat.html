@@ -4,52 +4,17 @@
     
     </head>
     <body>
-      <div id="bgImage"></div>
-      <div id="mainContainer">
-          <div id="logoContainer">
-              <img id="logo" src="https://c1.sfdcstatic.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg" width="65px" alt="Salesforce logo" />
-          </div>
-          <div id="bodyContainer">
+     
+         
               <h1>Test Your Messaging Deployment</h1>
-              <ol>
-                  <li>In the previous browser tab where you’re signed into Salesforce, open the agent console.</li>
-                  <li>In the Omni-Channel utility or sidebar, make yourself available to accept incoming messaging sessions.<br />
-                     <button id="accordion">
-                        <img class="chevronright" src="/apexpages/slds/latest/assets/icons/utility/chevronright_60.png"/>
-                        <img class="chevrondown" src="/apexpages/slds/latest/assets/icons/utility/chevrondown_60.png"/>
-                        Show Me Where
-                     </button>
-                     <div id="videoDemoContainer">
-                        <img
-                            style="display: block; max-width: 330px; max-height: 452px;"
-                            class="vidyard-player-embed"
-                            src="https://play.vidyard.com/6udN7LzkmqU8RgRvyoKDrS.jpg"
-                            data-uuid="6udN7LzkmqU8RgRvyoKDrS"
-                            data-v="4"
-                            data-type="inline"
-                            data-width="330"
-                            data-height="452"
-                        />
-                     </div></li>
+            
                   <li>In this tab, open the Messaging conversation window and send a message as a customer.</li>
                   <li>In Salesforce, accept the messaging session and send a response.</li>
                   <li>Chat back and forth, and then end the conversation.</li>
               </ol>
           </div>
       </div>
-      <script>
-            var videoAccordion = document.getElementById("accordion");
-            videoAccordion.addEventListener("click", function() {
-            this.classList.toggle("active");
-
-            var videoContainer = this.nextElementSibling;
-            if (videoContainer.style.display === "block") {
-                videoContainer.style.display = "none";
-            } else {
-                videoContainer.style.display = "block";
-            }
-        });
-        </script>
+    
     
       <script type='text/javascript'>
 	function initEmbeddedMessaging() {
